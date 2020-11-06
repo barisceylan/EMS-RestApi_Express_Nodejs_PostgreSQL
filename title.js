@@ -6,7 +6,6 @@ const pool = require("./databaseHandler");
 app.use(express.json());
 
 //get all titles
-
 app.get("/titles", async (req, res) => {
   try {
     const allTitles = await pool.query("SELECT * FROM title");
