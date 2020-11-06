@@ -72,7 +72,6 @@ app.delete("/departments/:dep_id", async (req, res) => {
       "DELETE FROM department WHERE dep_id = $1",
       [dep_id]
     );
-
     res.json("Department deleted");
   } catch (err) {
     console.error(err.message);

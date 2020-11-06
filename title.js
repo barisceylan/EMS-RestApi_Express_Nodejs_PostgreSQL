@@ -40,7 +40,6 @@ app.post("/titles", async (req, res) => {
       "INSERT INTO title (start_date, end_date, title, department) VALUES ($1, $2,$3, $4)",
       [start_date, end_date, title, department]
     );
-
     res.json(newTitle.rows[0]);
   } catch (err) {
     console.error(err.message);
@@ -59,7 +58,6 @@ app.put("/titles/:title_id", async (req, res) => {
       "UPDATE title SET start_date = $1, end_date=$2, title = $3, department = $4 WHERE title_id = $5",
       [start_date, end_date, title, department, title_id]
     );
-
     res.json("Title is updated");
   } catch (err) {
     console.error(err.message);
@@ -74,7 +72,6 @@ app.delete("/titles/:title_id", async (req, res) => {
       "DELETE FROM title WHERE title_id = $1",
       [title_id]
     );
-
     res.json("Title deleted");
   } catch (err) {
     console.error(err.message);
