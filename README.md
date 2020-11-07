@@ -6,7 +6,7 @@ EMS is a Rest Api Express project which was written with Node.js and used Postgr
 
 - Uses [postman](https://www.postman.com/) to test api.
 - Uses [nodemon](https://www.npmjs.com/package/nodemon) to automatically restart the node application when file changes.
-- Uses [express](https://expressjs.com/) as web framework for Node.js.
+- Uses [express](https://www.npmjs.com/package/express) as web framework for Node.js.
 - Uses [pool](https://node-postgres.com/api/pool) to connect Node.js to PostgreSQL.
 
 ```bash
@@ -43,4 +43,3 @@ const pool = new Pool({
 
 
 ### Created by Barış Ceylan
-
