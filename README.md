@@ -1,6 +1,7 @@
 # Employee Management System
 
-EMS is a Rest Api Express project which was written with Node.js and used PostgreSQL in order to control the database. EMS allows user to control company's employees, departments, locations and employee titles via get(), post(), put() and delete() features.
+- EMS is a Rest Api Express project which was written with Node.js and used PostgreSQL in order to control the database. 
+- EMS allows user to control company's employees, departments, locations and employee titles via get(), post(), put() and delete() features.
 
 ## Side Programs
 
