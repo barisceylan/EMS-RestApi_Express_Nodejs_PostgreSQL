@@ -1,14 +1,14 @@
 # Employee Management System
 
-- [x] EMS is a Rest Api Express project which was written with Node.js and used PostgreSQL in order to control the database. 
-- [x] EMS allows user to control company's employees, departments, locations and employee titles via get(), post(), put() and delete() features.
+- EMS is a Rest Api Express project which was written with Node.js and used PostgreSQL in order to control the database. 
+- EMS allows user to control company's employees, departments, locations and employee titles via get(), post(), put() and delete() features.
 
 ## Side Programs
 
-- Uses [postman](https://www.postman.com/) to test api.
-- Uses [nodemon](https://www.npmjs.com/package/nodemon) to automatically restart the node application when file changes.
-- Uses [express](https://www.npmjs.com/package/express) as web framework for Node.js.
-- Uses [pool](https://node-postgres.com/api/pool) to connect Node.js to PostgreSQL.
+- [x] Uses [postman](https://www.postman.com/) to test api.
+- [x] Uses [nodemon](https://www.npmjs.com/package/nodemon) to automatically restart the node application when file changes.
+- [x] Uses [express](https://www.npmjs.com/package/express) as web framework for Node.js.
+- [x] Uses [pool](https://node-postgres.com/api/pool) to connect Node.js to PostgreSQL.
 
 ```bash
 npm i nodemon     // install nodemon
